@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="42cd9a65-233c-45fd-ad6c-8138a8d6cafd">
+  <producedTypes>
+    <managerType typeId="ec449e2a-d040-41d8-a248-fbd068187d7e" valueTypeId="9f100a75-5946-4829-9025-90c34d5f8716"/>
+    <valueManagerType typeId="e4e37d23-db90-46a0-af44-9919995fa02e" valueTypeId="9a242ec2-8e94-45ca-905f-d098fe7e7f25"/>
+    <valueKeyType typeId="1535937a-7f17-4fd9-b7bd-4407a89eb91e" valueTypeId="077c2896-470f-4a9b-a9e2-5cb2112b8a3a"/>
+  </producedTypes>
+  <name>ХранитьУслугиСортировкиВРегистреСведений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хранить услуги сортировки в регистре сведений</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

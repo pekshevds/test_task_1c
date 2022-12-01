@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2d96636e-9398-4482-b49f-1df77b0739b6">
+  <producedTypes>
+    <selectionType typeId="a3372c42-46a1-4de4-9085-c4ad22d144bd" valueTypeId="9f36eae6-3b53-4f5e-b1ad-b233466da13c"/>
+    <listType typeId="ebf4504b-8796-431d-bb7e-28fd2afd8504" valueTypeId="9c5ed32e-7d63-4d5a-b168-49ea0e89ac0e"/>
+    <managerType typeId="96534801-9858-4121-af5b-3969495e16c1" valueTypeId="adf21d96-9c38-4d05-97a4-93bb945d8990"/>
+    <recordSetType typeId="f8e55226-2ebe-4ea1-824b-aecc53c9e461" valueTypeId="57d1eddc-07c9-45d3-b5f7-d719dc50358c"/>
+    <recordKeyType typeId="fbf284b9-fe20-4c6c-848f-94d644e96768" valueTypeId="744b18db-b052-42b9-ae4f-eebf6115fefa"/>
+    <recordType typeId="838b6aeb-316b-4c47-b484-eabee7479618" valueTypeId="f2692bd0-50ec-4d6b-9b56-3bc279f7ff6c"/>
+    <recordManagerType typeId="4a1b09aa-0623-463b-9204-cfc4da0ea082" valueTypeId="32182631-3f91-4597-9c36-d1453b237594"/>
+  </producedTypes>
+  <name>ТарифыНаВсеКромеХабов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тарифы на все кроме хабов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="dd23255a-3d28-47d6-a919-891213d1cb9d">
+    <name>Тариф</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="ae6cdda9-997e-4a56-9320-af8cd9c4dead">
+    <name>КодТипаОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код типа обработки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.КодыТиповОбработки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

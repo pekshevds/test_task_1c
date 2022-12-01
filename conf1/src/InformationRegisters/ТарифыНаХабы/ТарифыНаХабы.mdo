@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="83ea14a3-a899-439f-bb7e-d30494c89eb9">
+  <producedTypes>
+    <selectionType typeId="50a7a41e-2795-4038-ac50-62977b109cd3" valueTypeId="5df441b6-8d75-4ec3-859b-9b6aeb5a050e"/>
+    <listType typeId="bb0c11ef-b6e8-4433-bba0-da7dd849a19e" valueTypeId="5b80bc68-aeb7-44e7-a669-edc8ea16d6f9"/>
+    <managerType typeId="033759fb-2db8-492f-bb23-ac6d67662e1b" valueTypeId="56a404ed-5b94-4c6d-aa08-a1ed495b00fc"/>
+    <recordSetType typeId="fea75a8c-ef16-4c60-8c47-54920626fbc7" valueTypeId="838a312f-e827-440b-84bd-5399a3ae5b5b"/>
+    <recordKeyType typeId="8b0ed34f-a9f1-441c-b5a1-9e3e01f76f20" valueTypeId="e7087c52-f957-4495-ba06-c797403385d6"/>
+    <recordType typeId="eacd30b7-4d09-40e7-b0b3-b08f0c2de8a5" valueTypeId="1ffb5d74-ead6-4e7a-84a0-1ce76f17600d"/>
+    <recordManagerType typeId="ba16209d-3402-4452-80ea-10863dcfeeac" valueTypeId="bbef65b4-b08c-4c30-aec7-6ec537ee7a9a"/>
+  </producedTypes>
+  <name>ТарифыНаХабы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тарифы на хабы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="9868edc0-b757-4a6f-9d9d-a2c7b1e19303">
+    <name>Порог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порог</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВариантыПороговУстановкиТарифовНаХабы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="a1f316bc-0c9b-4dcc-a67f-ebb8d1248de0">
+    <name>КодТипаОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код типа обработки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.КодыТиповОбработки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="77b49cb7-ceab-4c67-9551-e51d2984b337">
+  <name>ПервичнаяИнформация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Первичная информация</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.УслугаСортировки</content>
+  <parentSubsystem>Subsystem.Основная</parentSubsystem>
+</mdclass:Subsystem>

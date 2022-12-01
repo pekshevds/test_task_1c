@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="235e5ed4-8e37-4aaf-9804-7e44a70537d0">
+  <name>МетодыРаботыСДокументамиУслугаСортировки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Методы работы с документами услуга сортировки</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

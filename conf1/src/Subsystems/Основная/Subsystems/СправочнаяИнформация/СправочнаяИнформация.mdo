@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0e3a4a33-6a65-4aa3-84e4-fd941dc0d7e1">
+  <name>СправочнаяИнформация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочная информация</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ВариантыПороговУстановкиТарифовНаХабы</content>
+  <content>InformationRegister.ТарифыНаВсеКромеХабов</content>
+  <content>InformationRegister.ТарифыНаХабы</content>
+  <parentSubsystem>Subsystem.Основная</parentSubsystem>
+</mdclass:Subsystem>
