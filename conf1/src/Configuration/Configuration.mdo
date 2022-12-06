@@ -40,9 +40,9 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.Основная</subsystems>
-  <commonModules>CommonModule.МетодыОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.МетодыОбщегоНазначенияВызовСервера</commonModules>
   <commonModules>CommonModule.МетодыРаботыСДокументамиУслугаСортировки</commonModules>
-  <commonModules>CommonModule.МетодыРаботыСЗагружаемымФайломИЕгоСодержимым</commonModules>
+  <commonModules>CommonModule.МетодыРаботыСЗагружаемымФайломИЕгоСодержимымВызовСервера</commonModules>
   <commonModules>CommonModule.РегламентныеИФоновыеЗадания</commonModules>
   <constants>Constant.ХранитьУслугиСортировкиВРегистреСведений</constants>
   <catalogs>Catalog.ВариантыПороговУстановкиТарифовНаХабы</catalogs>

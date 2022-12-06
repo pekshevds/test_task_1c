@@ -18,6 +18,10 @@
   <editType>InDialog</editType>
   <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Тариф</value>
+  </recordPresentation>
   <resources uuid="dd23255a-3d28-47d6-a919-891213d1cb9d">
     <name>Тариф</name>
     <synonym>

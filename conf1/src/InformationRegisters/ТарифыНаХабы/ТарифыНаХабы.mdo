@@ -19,6 +19,10 @@
   <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
   <mainFilterOnPeriod>true</mainFilterOnPeriod>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Тариф</value>
+  </recordPresentation>
   <resources uuid="9868edc0-b757-4a6f-9d9d-a2c7b1e19303">
     <name>Порог</name>
     <synonym>

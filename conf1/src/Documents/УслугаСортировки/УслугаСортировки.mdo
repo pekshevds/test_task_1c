@@ -18,6 +18,10 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Услуга сортировки</value>
+  </objectPresentation>
   <numberType>String</numberType>
   <numberLength>11</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>
