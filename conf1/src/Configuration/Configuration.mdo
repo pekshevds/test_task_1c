@@ -48,7 +48,9 @@
   <catalogs>Catalog.ВариантыПороговУстановкиТарифовНаХабы</catalogs>
   <documents>Document.УслугаСортировки</documents>
   <enums>Enum.КодыТиповОбработки</enums>
+  <reports>Report.Отчет</reports>
   <dataProcessors>DataProcessor.ПанельУправления</dataProcessors>
+  <informationRegisters>InformationRegister.ПроизводственныйКалендарь</informationRegisters>
   <informationRegisters>InformationRegister.ТарифыНаВсеКромеХабов</informationRegisters>
   <informationRegisters>InformationRegister.ТарифыНаХабы</informationRegisters>
 </mdclass:Configuration>

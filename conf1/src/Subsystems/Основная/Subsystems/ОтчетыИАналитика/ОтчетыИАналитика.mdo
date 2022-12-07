@@ -7,5 +7,6 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Report.Отчет</content>
   <parentSubsystem>Subsystem.Основная</parentSubsystem>
 </mdclass:Subsystem>

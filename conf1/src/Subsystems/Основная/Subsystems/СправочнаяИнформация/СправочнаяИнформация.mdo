@@ -10,5 +10,6 @@
   <content>Catalog.ВариантыПороговУстановкиТарифовНаХабы</content>
   <content>InformationRegister.ТарифыНаВсеКромеХабов</content>
   <content>InformationRegister.ТарифыНаХабы</content>
+  <content>InformationRegister.ПроизводственныйКалендарь</content>
   <parentSubsystem>Subsystem.Основная</parentSubsystem>
 </mdclass:Subsystem>
